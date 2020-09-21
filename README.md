@@ -9,3 +9,6 @@ Current Features include
 Planned features:
 - Navbar Grid System
 - Implement Typography settings into `_settings.scss`
+## Acknowledgements
+- Bootstrap Grid, with minor changes.
+- Foundation UI utilities 
