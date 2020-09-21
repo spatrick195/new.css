@@ -108,17 +108,3 @@ $theme-colours: ("primary": $primary,
   "light": $light,
   "dark": $dark,
 ) !default;
-
-.text {
-  @include modifiers($colours, color);
-  @include modifiers($theme-colours, color)
-}
-
-.bg {
-  @include modifiers($colours, background-color);
-  @include modifiers($theme-colours, background-color)
-}
-
-.btn {
-  @include modifiers($theme-colours, color)
-}
