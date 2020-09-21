@@ -1,0 +1,36 @@
+// Base Settings
+
+
+// Colour Settings
+@import "./colours";
+
+// Grid Settings
+
+// Breakpoints
+//
+// Define the minimum dimensions at which your layout will change
+$grid-breakpoints: (xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px) !default;
+
+// Grid containers
+//
+// Define the maximum width of container for different screen sizes
+$container-max-widths: (sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1140px) !default;
+
+// Columns
+//
+// Set the number of your columns and specify the width of the gutters
+$grid-columns: 12 !default;
+$gutter-width: 1.875em !default;
+
+// Masonry
+$masonry-columns-count-sm: 1 !default;
+$masonry-columns-count-md: 2 !default;
+$masonry-columns-count-lg: 3 !default;
+$masonry-columns-count-xl: 4 !default;

@@ -1,0 +1,59 @@
+*,
+::before,
+::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+$grid-breakpoints: (xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px) !default;
+
+@include _assert-ascending($grid-breakpoints, "$grid-breakpoints");
+@include _assert-starts-at-zero($grid-breakpoints);
+
+$container-max-widths: (sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1140px) !default;
+
+@include _assert-ascending($container-max-widths, "$container-max-widths");
+
+$grid-columns: 12 !default;
+$gutter-width: 30px !default;
+
+// Container
+.container {
+    @include create-container();
+    @include create-container-max-widths();
+}
+
+// Fluid container (full width)
+.container-fluid {
+    @include create-container();
+}
+
+// Row
+.row {
+    @include create-row();
+}
+
+// no gutters
+//
+// Remove margin then the horizontal padding
+.gutterless {
+    margin-right: 0;
+    margin-left: 0;
+
+    >.col,
+    >[class*="col"],
+    >[class*="col-"] {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+// Columns
+@include create-grid-columns();

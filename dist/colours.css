@@ -1,0 +1,360 @@
+.text-black {
+  color: #111010;
+}
+
+.text-black-light {
+  color: #2a2a2a;
+}
+
+.text-black-lighter {
+  color: #383838;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-gray {
+  color: #8e8e8e;
+}
+
+.text-gray-dark {
+  color: #6c757d;
+}
+
+.text-gray-darker {
+  color: #495057;
+}
+
+.text-gray-light {
+  color: #dee2e6;
+}
+
+.text-gray-lighter {
+  color: #ced4da;
+}
+
+.text-blue {
+  color: #0084b4;
+}
+
+.text-blue-light {
+  color: #5698be;
+}
+
+.text-blue-lighter {
+  color: #add8e6;
+}
+
+.text-blue-dark {
+  color: #005dbb;
+}
+
+.text-blue-darker {
+  color: #005ea5;
+}
+
+.text-teal-dark {
+  color: #004c68;
+}
+
+.text-indigo {
+  color: #6610f2;
+}
+
+.text-purple {
+  color: #6f42c1;
+}
+
+.text-purple-light {
+  color: #6f72af;
+}
+
+.text-purple-dark {
+  color: #4c2c92;
+}
+
+.text-aqua-light {
+  color: #2bbbad;
+}
+
+.text-aqua-dark {
+  color: #1d7d73;
+}
+
+.text-cyan {
+  color: #17a2b8;
+}
+
+.text-green {
+  color: #24a882;
+}
+
+.text-green-light {
+  color: #23cba5;
+}
+
+.text-green-dark {
+  color: #158c6a;
+}
+
+.text-green2 {
+  color: #4caf50;
+}
+
+.text-green2-light {
+  color: #ddffdd;
+}
+
+.text-red {
+  color: #dc143c;
+}
+
+.text-red-light {
+  color: #f2003c;
+}
+
+.text-red-dark {
+  color: #b31b1b;
+}
+
+.text-orange {
+  color: #FF7900;
+}
+
+.text-orange-dark {
+  color: #E86100;
+}
+
+.text-orange-light {
+  color: #FFA500;
+}
+
+.text-primary {
+  color: #0084b4;
+}
+
+.text-secondary {
+  color: #6f42c1;
+}
+
+.text-success {
+  color: #24a882;
+}
+
+.text-info {
+  color: #17a2b8;
+}
+
+.text-warning {
+  color: #FF7900;
+}
+
+.text-danger {
+  color: #dc143c;
+}
+
+.text-light {
+  color: #dee2e6;
+}
+
+.text-dark {
+  color: #2a2a2a;
+}
+
+.bg-black {
+  background-color: #111010;
+}
+
+.bg-black-light {
+  background-color: #2a2a2a;
+}
+
+.bg-black-lighter {
+  background-color: #383838;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.bg-gray {
+  background-color: #8e8e8e;
+}
+
+.bg-gray-dark {
+  background-color: #6c757d;
+}
+
+.bg-gray-darker {
+  background-color: #495057;
+}
+
+.bg-gray-light {
+  background-color: #dee2e6;
+}
+
+.bg-gray-lighter {
+  background-color: #ced4da;
+}
+
+.bg-blue {
+  background-color: #0084b4;
+}
+
+.bg-blue-light {
+  background-color: #5698be;
+}
+
+.bg-blue-lighter {
+  background-color: #add8e6;
+}
+
+.bg-blue-dark {
+  background-color: #005dbb;
+}
+
+.bg-blue-darker {
+  background-color: #005ea5;
+}
+
+.bg-teal-dark {
+  background-color: #004c68;
+}
+
+.bg-indigo {
+  background-color: #6610f2;
+}
+
+.bg-purple {
+  background-color: #6f42c1;
+}
+
+.bg-purple-light {
+  background-color: #6f72af;
+}
+
+.bg-purple-dark {
+  background-color: #4c2c92;
+}
+
+.bg-aqua-light {
+  background-color: #2bbbad;
+}
+
+.bg-aqua-dark {
+  background-color: #1d7d73;
+}
+
+.bg-cyan {
+  background-color: #17a2b8;
+}
+
+.bg-green {
+  background-color: #24a882;
+}
+
+.bg-green-light {
+  background-color: #23cba5;
+}
+
+.bg-green-dark {
+  background-color: #158c6a;
+}
+
+.bg-green2 {
+  background-color: #4caf50;
+}
+
+.bg-green2-light {
+  background-color: #ddffdd;
+}
+
+.bg-red {
+  background-color: #dc143c;
+}
+
+.bg-red-light {
+  background-color: #f2003c;
+}
+
+.bg-red-dark {
+  background-color: #b31b1b;
+}
+
+.bg-orange {
+  background-color: #FF7900;
+}
+
+.bg-orange-dark {
+  background-color: #E86100;
+}
+
+.bg-orange-light {
+  background-color: #FFA500;
+}
+
+.bg-primary {
+  background-color: #0084b4;
+}
+
+.bg-secondary {
+  background-color: #6f42c1;
+}
+
+.bg-success {
+  background-color: #24a882;
+}
+
+.bg-info {
+  background-color: #17a2b8;
+}
+
+.bg-warning {
+  background-color: #FF7900;
+}
+
+.bg-danger {
+  background-color: #dc143c;
+}
+
+.bg-light {
+  background-color: #dee2e6;
+}
+
+.bg-dark {
+  background-color: #2a2a2a;
+}
+
+.btn-primary {
+  color: #0084b4;
+}
+
+.btn-secondary {
+  color: #6f42c1;
+}
+
+.btn-success {
+  color: #24a882;
+}
+
+.btn-info {
+  color: #17a2b8;
+}
+
+.btn-warning {
+  color: #FF7900;
+}
+
+.btn-danger {
+  color: #dc143c;
+}
+
+.btn-light {
+  color: #dee2e6;
+}
+
+.btn-dark {
+  color: #2a2a2a;
+}
+/*# sourceMappingURL=colours.css.map */
